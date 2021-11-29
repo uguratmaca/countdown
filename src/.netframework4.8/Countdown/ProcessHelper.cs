@@ -36,12 +36,12 @@ namespace Countdown
         }
         internal static void Calculate(List<IOperand> operands, Problem countdown)
         {
-            var stack = new Stack<Depth>();
-            stack.Push(new Depth { Numbers = countdown.GivenNumbers });
+            var queue = new Queue<Depth>();
+            queue.Enqueue(new Depth { Numbers = countdown.GivenNumbers });
 
-            while (stack.Count() > 0)
+            while (queue.Count() > 0)
             {
-                var stackItem = stack.Pop();
+                var stackItem = queue.Dequeue();
 
                 for (int i = 0; i < stackItem.Numbers.Count() - 1; i++)
                 {
@@ -57,7 +57,7 @@ namespace Countdown
                             }
                             if (!result.Ignore)
                             {
-                                stack.Push(ProcessHelper.AddDepth(stackItem, result, i, j));
+                                queue.Enqueue(ProcessHelper.AddDepth(stackItem, result, i, j));
                             }
                         }
                     }

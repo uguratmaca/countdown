@@ -26,9 +26,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 new Problem { GivenNumbers = new List<int> { 100, 1, 2, 3, 3, 5 }, Target = 717 } ,
                 new Problem { GivenNumbers = new List<int> { 75, 2, 3, 5, 6, 9 }, Target = 388 } ,
                 new Problem { GivenNumbers = new List<int> { 60, 2, 3, 4, 6, 7, 12 }, Target = 1555 } ,
-                new Problem { GivenNumbers = new List<int> { 50, 2, 3, 5, 6, 7, 13, 5, 8, 25 }, Target = 15552 } ,
-                new Problem { GivenNumbers = new List<int> { 100, 2, 3, 5, 6, 8, 11, 4, 9 }, Target = 7552 },
-                new Problem { GivenNumbers = new List<int> { 40, 1, 1, 4, 6, 9, 9, 9, 9 }, Target = 4215 }
+                new Problem { GivenNumbers = new List<int> { 100, 2, 3, 5, 6, 8, 11, 4 }, Target = 7552 }
             };
 
             var iterations = 10;

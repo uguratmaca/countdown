@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Countdown.Models
+﻿namespace Countdown.Models
 {
     internal class Problem
     {
