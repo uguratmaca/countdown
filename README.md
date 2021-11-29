@@ -1,5 +1,5 @@
 # countdown
-Created for benchmarking .netframework 4.8 vs .net5 vs .net6
+Created for **benchmarking .netframework 4.8 vs .net5 vs .net6**
 
 ## Example Problem
 Des chiffres et des lettres, bir kelime bir işlem breadth first search
@@ -13,4 +13,4 @@ Breadth First Search
 |----------|:-------------:|
 | .net framework 4.8 |  15449 | 
 | .net5 (core) |    9383   |  
-| .net6 (core) | 6947 |
+| .net6 (core) | **6947** |
