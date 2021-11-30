@@ -7,6 +7,10 @@ https://en.wikipedia.org/wiki/Des_chiffres_et_des_lettres (Numbers round section
 
 ## Example Problem Solving Algorithm
 Breadth First Search  
+
+![Breadth First Search](https://github.com/uguratmaca/countdown/blob/main/breadth-first-search.png?raw=true)
+
+
 Find the results with minimum calculation count.
 (attention it uses too much ram)
 
