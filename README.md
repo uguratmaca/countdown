@@ -2,7 +2,7 @@
 Created for **benchmarking .netframework 4.8 vs .net5 vs .net6**
 
 ## Example Problem
-Des chiffres et des lettres, bir kelime bir işlem programındaki bir işlemi çözen program, breadth first search
+Des chiffres et des lettres, bir kelime bir işlem yarışmasındaki bir işlemi çözen program, breadth first search
 https://en.wikipedia.org/wiki/Des_chiffres_et_des_lettres (Numbers round section)
 
 ## Example Problem Solving Algorithm
