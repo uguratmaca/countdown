@@ -1,11 +1,24 @@
-# countdown
+# Countdown Solver
 Created for **benchmarking .netframework 4.8 vs .net5 vs .net6**
 
-## Example Problem
+Please firstly watch this video below.  
+
+[![Extraordinary Example](https://github.com/uguratmaca/countdown/blob/main/countdown-video-preview.JPG?raw=true)](https://www.youtube.com/watch?v=pfa3MHLLSWI "Extraordinary Example")
+
+**Target**: **952**   
+**Numbers to use**: 25 50 75 100 3 6  
+
+Competitor Solution:  
+100 + 6 = 106  
+106 * 3 = 318  
+318 * 75 = 23850  
+23850 / 25 = 952
+
+## Problem
 Des chiffres et des lettres, bir kelime bir işlem yarışmasındaki bir işlemi çözen program, breadth first search
 https://en.wikipedia.org/wiki/Des_chiffres_et_des_lettres (Numbers round section)
 
-## Example Problem Solving Algorithm
+## Problem Solving Algorithm
 Breadth First Search  
 
 ![Breadth First Search](https://github.com/uguratmaca/countdown/blob/main/breadth-first-search.png?raw=true)
