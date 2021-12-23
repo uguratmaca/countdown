@@ -12,7 +12,15 @@ Competitor Solution:
 100 + 6 = 106  
 106 * 3 = 318  
 318 * 75 = 23850  
+23850 - 50 = 23800  
 23850 / 25 = 952
+
+Solution of our code (nearly same):  
+75 * 3 = 225  
+100 + 6 = 106  
+106 * 225 = 23850  
+23850 - 50 = 23800  
+23800 / 25 = 952
 
 ## Problem
 Des chiffres et des lettres, bir kelime bir işlem yarışmasındaki bir işlemi çözen program, breadth first search
