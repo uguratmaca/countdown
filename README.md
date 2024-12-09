@@ -3,7 +3,9 @@ Created for **benchmarking .netframework 4.8 vs .net5 vs .net6**
 
 Please firstly watch this video below.  
 
-[![Extraordinary Example](https://github.com/uguratmaca/countdown/blob/main/countdown-video-preview.JPG?raw=true)](https://www.youtube.com/watch?v=pfa3MHLLSWI "Extraordinary Example"){:target="_blank"}
+<a href="https://www.youtube.com/watch?v=pfa3MHLLSWI" target="_blank">
+  ![Extraordinary Example](https://github.com/uguratmaca/countdown/blob/main/countdown-video-preview.JPG?raw=true)
+</a>
 
 **Target**: **952**   
 **Numbers to use**: 25 50 75 100 3 6  
